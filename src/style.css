@@ -1,0 +1,237 @@
+:root {
+  --dl-color-gray-500: #595959;
+  --dl-color-gray-700: #999999;
+  --dl-color-gray-900: #D9D9D9;
+  --dl-size-size-large: 144px;
+  --dl-size-size-small: 48px;
+  --dl-color-danger-300: #A22020;
+  --dl-color-danger-500: #BF2626;
+  --dl-color-danger-700: #E14747;
+  --dl-color-gray-black: #000000;
+  --dl-color-gray-white: #FFFFFF;
+  --dl-size-size-medium: 96px;
+  --dl-size-size-xlarge: 192px;
+  --dl-size-size-xsmall: 16px;
+  --dl-space-space-unit: 16px;
+  --dl-color-primary-100: #003EB3;
+  --dl-color-primary-300: #0074F0;
+  --dl-color-primary-500: #14A9FF;
+  --dl-color-primary-700: #85DCFF;
+  --dl-color-success-300: #199033;
+  --dl-color-success-500: #32A94C;
+  --dl-color-success-700: #4CC366;
+  --dl-size-size-xxlarge: 288px;
+  --dl-size-size-maxwidth: 1400px;
+  --dl-radius-radius-round: 50%;
+  --dl-space-space-halfunit: 8px;
+  --dl-space-space-sixunits: 96px;
+  --dl-space-space-twounits: 32px;
+  --dl-radius-radius-radius2: 2px;
+  --dl-radius-radius-radius4: 4px;
+  --dl-radius-radius-radius8: 8px;
+  --dl-space-space-fiveunits: 80px;
+  --dl-space-space-fourunits: 64px;
+  --dl-color-t-regcolor-white: rgba(255, 255, 255, 1);
+  --dl-space-space-threeunits: 48px;
+  --dl-space-space-oneandhalfunits: 24px;
+  --dl-color-t-regcolor_sys_light-bg: rgba(255, 255, 255, 1);
+  --dl-color-t-regcolor_sys_light-onbg: rgba(73, 82, 96, 1);
+  --dl-color-text_lighttheme-activated: rgba(36, 128, 200, 1);
+  --dl-color-lighttheme_basecolor--text: rgba(68, 74, 90, 1);
+  --dl-color-t-regcolor_sys_light-outline: rgba(193, 196, 201, 1);
+  --dl-color-t-regcolor_sys_light-primary: rgba(36, 128, 200, 1);
+  --dl-color-t-regcolor_sys_light-success: rgba(49, 167, 102, 1);
+  --dl-color-background_lighttheme-default: rgba(255, 255, 255, 1);
+  --dl-color-lighttheme_basecolor--primary: rgba(36, 128, 200, 1);
+  --dl-color-t-regcolor_sys_light-onprimary: rgba(255, 255, 255, 1);
+  --dl-color-t-regcolor_sys_light-onsurface: rgba(73, 82, 96, 1);
+  --dl-color-t-regcolor_ref_orange-orange400: rgba(253, 196, 62, 1);
+  --dl-color-background_lighttheme-background: rgba(246, 247, 249, 1);
+  --dl-color-t-regcolor_ref_primary-primary50: rgba(233, 242, 250, 1);
+  --dl-color-t-regcolor_sys_light-alertcontainer: rgba(253, 248, 232, 1);
+  --dl-color-t-regcolor_sys_light-errorcontainer: rgba(252, 234, 234, 1);
+  --dl-color-t-regcolor_sys_light-outlinevariant: rgba(240, 241, 242, 1);
+  --dl-color-t-regcolor_sys_light-sucesscontainer: rgba(234, 246, 240, 1);
+  --dl-color-t-regcolor_sys_light-onalertcontainer: rgba(211, 172, 22, 1);
+  --dl-color-t-regcolor_sys_light-onerrorcontainer: rgba(201, 44, 44, 1);
+  --dl-color-t-regcolor_sys_light-primarycontainer: rgba(233, 242, 250, 1);
+  --dl-color-t-regcolor_sys_light-onsucesscontainer: rgba(45, 152, 93, 1);
+  --dl-color-t-regcolor_sys_light-onprimarycontainer: rgba(33, 116, 182, 1);
+}
+.button {
+  color: var(--dl-color-gray-black);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.input {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.textarea {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.list {
+  width: 100%;
+  margin: 1em 0px 1em 0px;
+  display: block;
+  padding: 0px 0px 0px 1.5rem;
+  list-style-type: none;
+  list-style-position: outside;
+}
+.list-item {
+  display: list-item;
+}
+.teleport-show {
+  display: flex !important;
+  transform: none !important;
+}
+.TextButton-EN-Medium-S {
+  font-size: 12px;
+  font-style: normal;
+  font-family: IBM Plex Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.ParagraphRegular {
+  font-size: 14px;
+  font-style: normal;
+  font-family: IBM Plex Sans Thai;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.ParagraphN\.DesignSystem {
+  font-size: 14px;
+  font-style: normal;
+  font-family: IBM Plex Sans Thai;
+  font-weight: 300px;
+  font-stretch: normal;
+}
+.Content {
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.TextTHH2ENH2ENH2Semibold {
+  font-size: 24px;
+  font-style: normal;
+  font-family: IBM Plex Sans Thai;
+  font-weight: 600px;
+  font-stretch: normal;
+}
+.TextButton-EN-Medium-L {
+  font-size: 14px;
+  font-style: normal;
+  font-family: IBM Plex Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.TextP2-EN-Medium {
+  font-size: 11px;
+  font-style: normal;
+  font-family: IBM Plex Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.TextP-TH-Reg {
+  font-size: 14px;
+  font-style: normal;
+  font-family: IBM Plex Sans Thai;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.TextH1-TH-Semibold {
+  font-size: 28px;
+  font-style: normal;
+  font-family: IBM Plex Sans Thai;
+  font-weight: 600px;
+  font-stretch: normal;
+}
+.Heading {
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.DesktopENP1Light {
+  font-size: 14px;
+  font-style: normal;
+  font-family: IBM Plex Sans;
+  font-weight: 300px;
+  font-stretch: normal;
+}
+.HintEX\.DesignSystem {
+  font-size: 12px;
+  font-style: normal;
+  font-family: IBM Plex Sans Thai;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.DesktopTHH3Regular {
+  font-size: 20px;
+  font-style: normal;
+  font-family: IBM Plex Sans Thai;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.InUseP2Regular {
+  font-size: 13px;
+  font-style: normal;
+  font-family: IBM Plex Sans Thai;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.TextP1-EN-Reg {
+  font-size: 14px;
+  font-style: normal;
+  font-family: IBM Plex Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.DesktopTHP2Light {
+  font-size: 11px;
+  font-style: normal;
+  font-family: IBM Plex Sans Thai;
+  font-weight: 300px;
+  font-stretch: normal;
+}
+.DesktopENH1Semibold {
+  font-size: 28px;
+  font-style: normal;
+  font-family: IBM Plex Sans;
+  font-weight: 600px;
+  font-stretch: normal;
+}
+.TextH2-TH-Semibold {
+  font-size: 24px;
+  font-style: normal;
+  font-family: IBM Plex Sans Thai;
+  font-weight: 600px;
+  font-stretch: normal;
+}
+.DesktopTHP1Light {
+  font-size: 14px;
+  font-style: normal;
+  font-family: IBM Plex Sans Thai;
+  font-weight: 300px;
+  font-stretch: normal;
+}
